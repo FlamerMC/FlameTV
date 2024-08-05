@@ -27,9 +27,9 @@ Now go to: [https://flamermc.github.io/FlameTV/](https://flamermc.github.io/Flam
 # Host your self
 1. `git clone https://github.com/FlamerMC/FlameTV.git`
 2. `cd FlameTV`
-3. `./index.html` or double click it from the file manager
-4. or in one line: `git clone https://github.com/FlamerMC/FlameTV.git && cd FlameTV && ./index.html`
-5. Do the steps listed before this
+3. or in one line: `git clone https://github.com/FlamerMC/FlameTV.git && cd FlameTV`
+4. open the folder double click it from the file manager
+5. Do the steps listed in How to Use
 6. You done!
 
 THe desktop version: [flame-tv-eletron-readme](https://github.com/FlamerMC/flame-tv-eletron/blob/main/README.md)
