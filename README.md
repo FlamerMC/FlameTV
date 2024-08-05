@@ -13,6 +13,8 @@ color: whitesmoke;
 6. After that paste: `www\.netflix\.com` into the top text box
 7. Repeat that 2 more times but change the url to `www\.amazon\.com` and `www.\disneyplus\.com`
 
+**THIS WILL APPEAR IN THE BOTTON OF THE PAGE, AT THE VERY BOTTOM SO CHECK IF IT IS THERE!**
+
 Now go to: [https://flamermc.github.io/FlameTV/](https://flamermc.github.io/FlameTV/)
 
 
