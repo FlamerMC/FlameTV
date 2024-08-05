@@ -11,8 +11,9 @@ background-color: black;
 color: whitesmoke;
 " href="https://flamermc.github.io/FlameTV/">Go To FlameTV</a>` into the bottom text box  
 6. After that paste: `www\.netflix\.com` into the top text box
+7. Repeat that 2 more times but change the url to `www\.amazon\.com` and `www.\disneyplus\.com`
 
-To access this go to [https://flamermc.github.io/FlameTV/](https://flamermc.github.io/FlameTV/)
+Now go to: [https://flamermc.github.io/FlameTV/](https://flamermc.github.io/FlameTV/)
 
 
 
