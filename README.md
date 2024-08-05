@@ -5,7 +5,7 @@ This is the Web version of [https://github.com/FlamerMC/flame-tv-eletron](https:
 1. Install this extension: [https://chrome.google.com/webstore/detail/edkcmfocepnifkbnbkmlcmegedeikdeb](https://chrome.google.com/webstore/detail/edkcmfocepnifkbnbkmlcmegedeikdeb)
 2. Then open the extension
 3. Click  ![image](https://github.com/user-attachments/assets/826ff859-ec5f-4213-bb43-c296a8a7ab4f)
-4. Then click ![image](https://github.com/user-attachments/assets/fce3e83f-3be5-478b-a664-e4536cf3aae1)
+4. Then click **HTML**
 5. And paste `<a style="
 background-color: black;
 color: whitesmoke;
