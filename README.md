@@ -24,7 +24,10 @@ color: whitesmoke;
 **THIS WILL APPEAR IN THE BOTTON OF THE PAGE, AT THE VERY BOTTOM SO CHECK IF IT IS THERE!**
 
 Now go to: [https://flamermc.github.io/FlameTV/](https://flamermc.github.io/FlameTV/)
-
-
+# Host your self
+1. git clone https://github.com/FlamerMC/FlameTV.git
+2. cd FlameTV
+3. ./index.html or double click it from the file manager
+4. Do the steps listed [here](## How to use)
 
 THe desktop version: [flame-tv-eletron-readme](https://github.com/FlamerMC/flame-tv-eletron/blob/main/README.md)
