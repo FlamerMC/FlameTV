@@ -10,7 +10,7 @@ This is the Web version of [https://github.com/FlamerMC/flame-tv-eletron](https:
 background-color: black;
 color: whitesmoke;
 " href="https://flamermc.github.io/FlameTV/">Go To FlameTV</a>` into the bottom text box  
-6. After that paste: www\.netflix\.com into the top one
+6. After that paste: `www\.netflix\.com` into the top text box
 
 To access this go to [https://flamermc.github.io/FlameTV/](https://flamermc.github.io/FlameTV/)
 
