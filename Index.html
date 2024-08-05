@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>FlameTV</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        body {
+            background: rgb(36, 20, 0);
+            background: linear-gradient(90deg, rgba(36, 20, 0, 1) 0%, rgba(121, 47, 9, 1) 35%, rgba(255, 139, 0, 1) 100%);
+            font-family: "Roboto", sans-serif;
+            color: white;
+        }
+
+        .appimage {
+            width: 200px;
+            height: 200px;
+            transition: all .2s ease-in-out;
+            border-radius: 25px;
+        }
+
+        .appimage:hover {
+            transform: scale(1.1);
+        }
+
+        #searchbox {
+            background-color: rgb(0, 0, 0);
+            text-align: center;
+            display: inline-block;
+            border: solid 1px black;
+            font-size: 25px;
+            color: whitesmoke;
+        }
+
+        #searchButton {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        #searchButton:hover {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1>Apps</h1>
+        <p>USE THE SIDE BUTTONS TO GO BACK</p>
+
+        <a href="https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video"><img
+                class="appimage" src="imgs/prime.png"></a>
+        <a href="https://www.netflix.com"><img class="appimage" src="imgs/netflix.png"></a>
+        <a href="https://www.disneyplus.com"><img class="appimage" src="imgs/plus.png"></a>
+        <h1>Search</h1>
+        <input id="searchBox" type="text" name="searchBox" value="" onchange="SearchQuery(this.value)">
+        <a id="searchButton" href="https://www.google.com/" target="_blank" onclick="buttonClick()"> <img
+                src="imgs/search.svg">
+        </a>
+
+    </center>
+    <script>
+        var inputField = document.querySelector("#searchBox");
+        inputField.addEventListener("input", adjustWidth);
+        function SearchQuery(val) {
+            document.getElementById("searchButton").href = "https://www.imdb.com/find/?q=" + val;
+        }
+        function buttonClick() {
+            document.getElementById("searchBox").value = "";
+        }
+        function adjustWidth() {
+            var value = inputField.value;
+            var width = value.length * 8 + 25; // 8px per character
+            inputField.style.width = width + "px";
+        }
+    </script>
+</body>
+
+</html>
